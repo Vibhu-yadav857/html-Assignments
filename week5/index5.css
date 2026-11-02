@@ -80,4 +80,112 @@ body {
 	text-align: center;
 }
 
+.hero h1 {
+	margin: 0 0 8px;
+	font-size: 32px;
+}
 
+.hero p {
+	margin: 0;
+	color: #d7f0e9;
+	font-size: 14px;
+}
+
+.panel {
+	padding: 17px 14px 14px;
+	border-radius: 9px;
+	background: #fff;
+}
+
+.panel h2 {
+	margin: 0 0 10px;
+	font-size: 20px;
+}
+
+.table-scroll {
+	overflow-x: auto;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+th,
+td {
+	padding: 10px 7px;
+	font-size: 14px;
+}
+
+thead {
+	background: #167c74;
+	color: #fff;
+}
+
+tbody tr {
+	border-bottom: 1px solid #d5e0dc;
+}
+
+.registration form {
+	display: grid;
+	grid-template-columns: max-content minmax(0, 168px);
+	align-items: center;
+	gap: 7px 8px;
+	font-size: 13px;
+}
+
+.registration input {
+	width: 100%;
+	min-height: 28px;
+	padding: 5px 7px;
+	border: 1px solid #aebdb8;
+	border-radius: 2px;
+	background: #fff;
+	color: #183b3a;
+	font: 13px Arial, sans-serif;
+}
+
+.registration input:focus-visible,
+.registration button:focus-visible {
+	outline: 3px solid #e8b44e;
+	outline-offset: 2px;
+}
+
+.registration button {
+	grid-column: 1 / -1;
+	justify-self: start;
+	margin-top: 1px;
+	padding: 8px 15px;
+	border: 0;
+	border-radius: 6px;
+	background: #d56748;
+	color: #fff;
+	font: 14px Arial, sans-serif;
+	cursor: pointer;
+}
+
+.registration button:hover {
+	background: #b94f35;
+}
+
+@media (max-width: 480px) {
+	body {
+		padding: 12px 8px;
+	}
+
+	.page-content {
+		gap: 10px;
+		padding: 10px;
+	}
+
+	.panel {
+		padding: 14px 10px 11px;
+	}
+
+	th,
+	td {
+		padding: 9px 5px;
+		font-size: 13px;
+	}
+}
