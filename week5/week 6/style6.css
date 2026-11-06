@@ -98,3 +98,55 @@ body {
     color: #ffffff;
     font-size: 38px;
 }
+
+.profile-card h1 {
+    margin: 0 0 17px;
+    font-size: 24px;
+}
+
+.role {
+    margin: 0 0 17px;
+    font-size: 16px;
+}
+
+.bio {
+    margin: 0;
+    padding: 8px;
+    border: 1px solid #c9d1e2;
+    background: #ffffff;
+    font-size: 15px;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.add-icon {
+    position: absolute;
+    right: 16px;
+    bottom: 24px;
+    display: grid;
+    width: 54px;
+    height: 54px;
+    place-items: center;
+    border-radius: 50%;
+    background: #ffb400;
+    color: #111111;
+    font-size: 26px;
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 8px;
+    }
+
+    .browser-window {
+        min-height: calc(100vh - 16px);
+    }
+
+    .window-label {
+        font-size: 14px;
+    }
+
+    .profile-card {
+        padding: 18px;
+    }
+}
